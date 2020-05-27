@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Admin Home</title>
+	<link rel="stylesheet" href="UserHome_Css.css">
+	<style>
+		
+	</style>
+</head>
+<body>
+<header>
+		<h1 class="hd">Aplikasi Pesan Tiket Kereta Api</h1>
+	<div class="home">
+		<p1 class="menu"><a href="AdminHome.html">Home</a></p1>
+	</div>
+	<div class="home">
+		<p1 class="menu"><a href="adminsearchtrainfwd">Cari Kereta</a></p1>
+	</div>
+	<div class="home">
+		<p1 class="menu"><a href="adminviewtrainfwd">Lihat Kereta</a></p1>
+	</div>
+	<div class="home">
+		<p1 class="menu"><a href="addtrainfwd">Tambah Kereta</a></p1>
+	</div>
+	<div class="home">
+		<p1 class="menu"><a href="cancletrainfwd">Batalkan Kereta</a></p1>
+	</div>
+	<div class="home">
+		<p1 class="menu"><a href="updatetrain">Perbarui Jadwal</a></p1>
+	</div>
+	<div class="home">
+		<p1 class="menu"><a href="adminlogout">Logout</a></p1>
+	</div>
+</header>
+<div class='main'>
+		<p1 class='menu'>
+			Tambah Kereta
+		</p1>
+	</div>
+<form  class="tab" action="adminaddtrain" method="post"><br/>
+		Nomor Kereta:<input type="text" name="trainno"><br/><br/>
+		Nama Kereta: <input type="text" name="trainname"><br/><br/>
+		Dari Stasiun: <input type="text" name="fromstation"><br/><br/>
+		Ke Stasiun: <input type="text" name="tostation"><br/><br/>
+		Ketersediaan: <input type="text" name="available"><br/><br/>
+		Tarid (IDR): <input type="text" name="fare"><br/><br/>
+		<input type="submit" value="TAMBAH KERETA">
+	</form><br/>
+
+</body>
+</html>
